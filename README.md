@@ -3,6 +3,9 @@
 ## Overview
 This project is a web-based audio segregation tool that uses `librosa` for harmonic-percussive source separation (HPSS). It allows users to upload audio files and separate them into harmonic and percussive components.
 
+## Live Demo
+Check out the live demo : [Sound Segregator Demo](https://soundsegregator-qvyimsjscfwgceq2uwpfzc.streamlit.app/?embed_options=dark_theme)
+
 ## Features
 - Separate audio tracks into harmonic and percussive components
 - Support for various audio formats (WAV, MP3, FLAC)
@@ -24,9 +27,6 @@ Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
-
-## Live Demo
-Check out the live demo on Hugging Face Spaces: [Sound Segregator Demo](https://huggingface.co/spaces/Vivek6041/Sound_Segregator)
 
 ## Dependencies
 - Librosa
